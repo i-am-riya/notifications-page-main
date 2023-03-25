@@ -24,6 +24,8 @@ body{
     font-size: 16px;
     /* font-weight: 400; */
     color: var(--Dark-grayish-blue);
+    background-color: var(--Very-light-grayish-blue);
+
 }
 
 .main{
