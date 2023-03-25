@@ -39,8 +39,7 @@ body{
     width: 670px;
     height: fit-content;
     padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 15px auto 15px auto;
     border-radius: 10px;
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
@@ -72,7 +71,7 @@ h1{
     color: var(--Very-dark-blue);
 }
 
-.no{
+#no{
     background-color: var(--Blue);
     padding: 1px 6px;
     color: #fff;
@@ -155,6 +154,21 @@ h1{
     margin-left: 5px;
     display: inline-block;
 }
+
+.hidden {
+    display: none;
+  }
+
+.attribution {
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--Very-light-grayish-blue);
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
 
 @media (max-width: 375px) {
     .container{

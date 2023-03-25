@@ -11,15 +11,7 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution {
-      font-size: 10px;
-      text-align: center;
-      padding: 20px;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
+   
   </style>
 </head>
 
@@ -27,24 +19,24 @@
   <div class="main">
     <div class="container">
       <div class="heading">
-        <h1>Notifications <span class="no">3</span></h1>
+        <h1>Notifications <span id="no">3</span></h1>
         <div><a href="#" id="markAsRead">Mark all as read</a></div>
       </div>
-      <div class="notification notification-active">
+      <div class="notification notification-active notification-nonactive">
         <div class="profile-img"><img src="assets/images/avatar-mark-webber.webp" alt=""></div>
         <div>
           <div><a href="#" class="name">Mark Webber </a> reacted to your recent post <a href="#" class="second"> My first tournament today!</a><span class="dot"></span></div>
           <div>1m ago</div>
         </div>
       </div>
-      <div class="notification notification-active">
+      <div class="notification notification-active notification-nonactive">
         <div class="profile-img"><img src="assets/images/avatar-angela-gray.webp" alt=""></div>
         <div>
           <div><a href="#" class="name">Angela Gray </a> followed you<span class="dot"></span></div>
           <div>5m ago</div>
         </div>
       </div>
-      <div class="notification notification-active">
+      <div class="notification notification-active notification-nonactive">
         <div class="profile-img"><img src="assets/images/avatar-jacob-thompson.webp" alt=""></div>
         <div>
           <div><a href="#" class="name">Jacob Thompson</a> has joined your group <a href="#" class="chess">Chess Club</a><span class="dot"></span></div>
@@ -86,10 +78,10 @@
       </div>
     </div>
   </div>
-  <!-- <div class="attribution">
+  <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Riya</a>.
-  </div> -->
+  </div>
+  <script src="index.js"></script>
 </body>
-
 </html>
