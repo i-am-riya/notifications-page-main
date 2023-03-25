@@ -172,6 +172,10 @@ h1{
     color: hsl(228, 45%, 44%);
   }
 
+  .attribution a:hover{
+    color: var(--Blue);
+  }
+
 @media (max-width: 375px) {
     .container{
         background-color: #fff;
