@@ -25,7 +25,6 @@ body{
     /* font-weight: 400; */
     color: var(--Dark-grayish-blue);
     background-color: var(--Very-light-grayish-blue);
-
 }
 
 .main{
@@ -172,10 +171,12 @@ h1{
 
   .attribution a {
     color: hsl(228, 45%, 44%);
+    font-style: italic;
   }
 
   .attribution a:hover{
     color: var(--Blue);
+    text-decoration: underline;
   }
 
 @media (max-width: 375px) {
